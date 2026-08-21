@@ -1,0 +1,3 @@
+Deployment:
+  imageURL: srinunaik208/catalogue
+  imageVersion: v5
