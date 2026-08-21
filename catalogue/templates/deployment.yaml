@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: catalogue 
-        image: "{{ .Values-dev.deployment.imageURL}}:{{ .Values-dev.deployment.imageVersion}}"
+        image: "{{ .Values.deployment.imageURL}}:{{ .Values.deployment.imageVersion}}"
         envFrom:
         - configMapRef:
            name: catalogue
